@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "rapsolairplace",
+	"version": "${version}",
+	"name": "RapsolAirPlace",
+	"description": "I let you air place a respawn anchor very easy :3",
+	"authors": [
+		"Rapsol9398"
+	],
+	"contact": {
+		"TikTik": "https://www.tiktok.com/@rapsol9398",
+		"Discord": "https://discord.gg/zk7BKYAhhb"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rapsolairplace/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.rapsol.RapsolAirPlace"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
